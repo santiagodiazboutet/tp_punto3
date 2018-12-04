@@ -8,18 +8,53 @@ git config --global user.name "Santiago"
  git push origin master
 
 
+ALFA y BETA
 
-alfa hace
-git clone "a clonar"
-git checkout -b "branch"
- cd "la repo"
- git add .
- git commit -m 'algo'
- git push origin "larepo"
+**********************************************************************
+capacita_mecon@PC1127076 MINGW64 /c/TEST/tp_punto3 (mebigi)
+$  echo "Mercedes bigi" >> Datos.txt
+
+capacita_mecon@PC1127076 MINGW64 /c/TEST/tp_punto3 (mebigi)
+$  echo "10.16.11.36" >> Datos.txt
+
+capacita_mecon@PC1127076 MINGW64 /c/TEST/tp_punto3 (mebigi)
+$ git add .
+warning: LF will be replaced by CRLF in Datos.txt.
+The file will have its original line endings in your working directory.
+
+capacita_mecon@PC1127076 MINGW64 /c/TEST/tp_punto3 (mebigi)
+$ git commit -m 'soy alfa'
+[mebigi 06072b5] soy alfa
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+capacita_mecon@PC1127076 MINGW64 /c/TEST/tp_punto3 (mebigi)
+$ git push
+fatal: The current branch mebigi has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin mebigi
 
 
+capacita_mecon@PC1127076 MINGW64 /c/TEST/tp_punto3 (mebigi)
+$ git push origin mebigi
+Username for 'https://github.com': mebigi
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'mebigi' on GitHub by visiting:
+remote:      https://github.com/santiagodiazboutet/tp_punto3/pull/new/mebigi
+remote:
+To https://github.com/santiagodiazboutet/tp_punto3.git
+ * [new branch]      mebigi -> mebigi
+***********************************************************
 
-   gamma vuelve a hacer
+
+gamma vuelve a hacer
+***********************************************************
 git clone https://github.com/santiagodiazboutet/tp_punto3
     4  git pull origin
     5  cd tp_punto3
@@ -29,3 +64,4 @@ git clone https://github.com/santiagodiazboutet/tp_punto3
     8  git commit "todobienahi"
     9  git commit -m "todobienahi"
    10  git push origin master
+******************************************************
