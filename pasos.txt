@@ -1,0 +1,31 @@
+gamma hace:
+git config --global http.proxy http://10.11.5.111:8080
+git config --global user.name "Santiago"
+ git clone "a clonar"
+ cd "la repo"
+ git add .
+ git commit -m 'algo'
+ git push origin master
+
+
+
+alfa hace
+git clone "a clonar"
+git checkout -b "branch"
+ cd "la repo"
+ git add .
+ git commit -m 'algo'
+ git push origin "larepo"
+
+
+
+   gamma vuelve a hacer
+git clone https://github.com/santiagodiazboutet/tp_punto3
+    4  git pull origin
+    5  cd tp_punto3
+    6  git merge origin/fernandeztrevor
+//si da error por los merge desde el mismo punto, editar a mano y sacar las lineas que tengan <<<< ===== y >>>>> ademas del head
+    7  git add .
+    8  git commit "todobienahi"
+    9  git commit -m "todobienahi"
+   10  git push origin master
